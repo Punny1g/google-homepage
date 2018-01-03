@@ -1,0 +1,99 @@
+li {
+  display: inline;
+  padding: 0px 8px 0px 8px;
+  font-size: 80%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  float: right;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  left:0;
+  height: 21px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #E4E4E4;
+  background-color: #F4F4F4;
+  text: #747474;
+}
+
+.levo {
+  float: left;
+}
+
+.desno {
+  float: right;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration:#747474;
+  color: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: #747474;
+}
+
+a {
+  color: #747474;
+}
+
+.gimg {
+  margin: 0 auto;
+  display: block;
+  width: 272px;
+  padding-top: 190px;
+}
+
+.sform {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+.sform > input {
+  width: 500px;
+  border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  border-color: #CBCBCB;
+  padding: 5px;
+  box-shadow: 0px 1px 3px 0px;
+}
+
+.dugmici {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+button {
+  border-radius: 0px;
+  background-color: #F1F1F1;
+  text: #757575;
+  width: 160px;
+  height: 34px;
+  padding: 0px 16px 0px 16px;
+  border: 0px solid;
+  color: F2F2F2;
+  margin: 11px 4px 11px 4px;
+  display: inline;
+  font-weight: bold;
+}
